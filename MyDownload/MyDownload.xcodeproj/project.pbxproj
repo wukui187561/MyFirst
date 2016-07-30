@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		7912CB0D1D4C42BF00711983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB0C1D4C42BF00711983 /* main.m */; };
 		7912CB101D4C42BF00711983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB0F1D4C42BF00711983 /* AppDelegate.m */; };
-		7912CB131D4C42BF00711983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB121D4C42BF00711983 /* ViewController.m */; };
-		7912CB161D4C42BF00711983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7912CB141D4C42BF00711983 /* Main.storyboard */; };
 		7912CB181D4C42BF00711983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7912CB171D4C42BF00711983 /* Assets.xcassets */; };
 		7912CB1B1D4C42BF00711983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7912CB191D4C42BF00711983 /* LaunchScreen.storyboard */; };
 		7912CB261D4C42BF00711983 /* MyDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB251D4C42BF00711983 /* MyDownloadTests.m */; };
 		7912CB311D4C42BF00711983 /* MyDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB301D4C42BF00711983 /* MyDownloadUITests.m */; };
+		7912CB461D4C477800711983 /* GFAnimationVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB3F1D4C477800711983 /* GFAnimationVIewController.m */; };
+		7912CB471D4C477800711983 /* GFWaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB411D4C477800711983 /* GFWaterView.m */; };
+		7912CB481D4C477800711983 /* NEWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB431D4C477800711983 /* NEWView.m */; };
+		7912CB491D4C477800711983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB451D4C477800711983 /* ViewController.m */; };
+		7912CB4C1D4C478900711983 /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7912CB4A1D4C478900711983 /* __.xcdatamodeld */; };
+		7912CB4E1D4C483600711983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7912CB4D1D4C483600711983 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		7912CB0C1D4C42BF00711983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7912CB0E1D4C42BF00711983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7912CB0F1D4C42BF00711983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7912CB111D4C42BF00711983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7912CB121D4C42BF00711983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7912CB151D4C42BF00711983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7912CB171D4C42BF00711983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7912CB1A1D4C42BF00711983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7912CB1C1D4C42BF00711983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,16 @@
 		7912CB2C1D4C42BF00711983 /* MyDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7912CB301D4C42BF00711983 /* MyDownloadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDownloadUITests.m; sourceTree = "<group>"; };
 		7912CB321D4C42BF00711983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7912CB3E1D4C477800711983 /* GFAnimationVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFAnimationVIewController.h; path = MyDownload/GFAnimationVIewController.h; sourceTree = "<group>"; };
+		7912CB3F1D4C477800711983 /* GFAnimationVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFAnimationVIewController.m; path = MyDownload/GFAnimationVIewController.m; sourceTree = "<group>"; };
+		7912CB401D4C477800711983 /* GFWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFWaterView.h; path = MyDownload/GFWaterView.h; sourceTree = "<group>"; };
+		7912CB411D4C477800711983 /* GFWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFWaterView.m; path = MyDownload/GFWaterView.m; sourceTree = "<group>"; };
+		7912CB421D4C477800711983 /* NEWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NEWView.h; path = MyDownload/NEWView.h; sourceTree = "<group>"; };
+		7912CB431D4C477800711983 /* NEWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NEWView.m; path = MyDownload/NEWView.m; sourceTree = "<group>"; };
+		7912CB441D4C477800711983 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MyDownload/ViewController.h; sourceTree = "<group>"; };
+		7912CB451D4C477800711983 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MyDownload/ViewController.m; sourceTree = "<group>"; };
+		7912CB4B1D4C478900711983 /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
+		7912CB4D1D4C483600711983 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MyDownload/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +92,18 @@
 		7912CAFF1D4C42BE00711983 = {
 			isa = PBXGroup;
 			children = (
+				7912CB4D1D4C483600711983 /* Main.storyboard */,
 				7912CB0A1D4C42BF00711983 /* MyDownload */,
+				7912CB3E1D4C477800711983 /* GFAnimationVIewController.h */,
+				7912CB3F1D4C477800711983 /* GFAnimationVIewController.m */,
+				7912CB401D4C477800711983 /* GFWaterView.h */,
+				7912CB411D4C477800711983 /* GFWaterView.m */,
+				7912CB421D4C477800711983 /* NEWView.h */,
+				7912CB431D4C477800711983 /* NEWView.m */,
+				7912CB441D4C477800711983 /* ViewController.h */,
+				7912CB451D4C477800711983 /* ViewController.m */,
+				7912CB4A1D4C478900711983 /* __.xcdatamodeld */,
+				7912CB0B1D4C42BF00711983 /* Supporting Files */,
 				7912CB241D4C42BF00711983 /* MyDownloadTests */,
 				7912CB2F1D4C42BF00711983 /* MyDownloadUITests */,
 				7912CB091D4C42BF00711983 /* Products */,
@@ -103,13 +125,9 @@
 			children = (
 				7912CB0E1D4C42BF00711983 /* AppDelegate.h */,
 				7912CB0F1D4C42BF00711983 /* AppDelegate.m */,
-				7912CB111D4C42BF00711983 /* ViewController.h */,
-				7912CB121D4C42BF00711983 /* ViewController.m */,
-				7912CB141D4C42BF00711983 /* Main.storyboard */,
 				7912CB171D4C42BF00711983 /* Assets.xcassets */,
 				7912CB191D4C42BF00711983 /* LaunchScreen.storyboard */,
 				7912CB1C1D4C42BF00711983 /* Info.plist */,
-				7912CB0B1D4C42BF00711983 /* Supporting Files */,
 			);
 			path = MyDownload;
 			sourceTree = "<group>";
@@ -120,6 +138,7 @@
 				7912CB0C1D4C42BF00711983 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = MyDownload;
 			sourceTree = "<group>";
 		};
 		7912CB241D4C42BF00711983 /* MyDownloadTests */ = {
@@ -243,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7912CB4E1D4C483600711983 /* Main.storyboard in Resources */,
 				7912CB1B1D4C42BF00711983 /* LaunchScreen.storyboard in Resources */,
 				7912CB181D4C42BF00711983 /* Assets.xcassets in Resources */,
-				7912CB161D4C42BF00711983 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7912CB131D4C42BF00711983 /* ViewController.m in Sources */,
+				7912CB4C1D4C478900711983 /* __.xcdatamodeld in Sources */,
+				7912CB491D4C477800711983 /* ViewController.m in Sources */,
+				7912CB461D4C477800711983 /* GFAnimationVIewController.m in Sources */,
+				7912CB481D4C477800711983 /* NEWView.m in Sources */,
 				7912CB101D4C42BF00711983 /* AppDelegate.m in Sources */,
 				7912CB0D1D4C42BF00711983 /* main.m in Sources */,
+				7912CB471D4C477800711983 /* GFWaterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +331,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7912CB141D4C42BF00711983 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7912CB151D4C42BF00711983 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7912CB191D4C42BF00711983 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +511,7 @@
 				7912CB371D4C42BF00711983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7912CB381D4C42BF00711983 /* Build configuration list for PBXNativeTarget "MyDownloadTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +520,7 @@
 				7912CB3A1D4C42BF00711983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7912CB3B1D4C42BF00711983 /* Build configuration list for PBXNativeTarget "MyDownloadUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,8 +529,23 @@
 				7912CB3D1D4C42BF00711983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7912CB4A1D4C478900711983 /* __.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7912CB4B1D4C478900711983 /* __.xcdatamodel */,
+			);
+			currentVersion = 7912CB4B1D4C478900711983 /* __.xcdatamodel */;
+			name = __.xcdatamodeld;
+			path = MyDownload/__.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7912CB001D4C42BF00711983 /* Project object */;
 }

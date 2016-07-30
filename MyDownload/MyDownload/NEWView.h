@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NEWView.h
 //  动画
 //
 //  Created by 李国峰 on 16/6/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NEWView : UIView
 
 @end
-

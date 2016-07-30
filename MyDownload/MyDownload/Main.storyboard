@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="LMe-bx-kqE">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="DLn-QO-D3B">
+            <objects>
+                <navigationController id="LMe-bx-kqE" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="px7-wk-TWY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Rum-S8-N2k" kind="relationship" relationship="rootViewController" id="ATT-yN-GvN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TYs-p0-lwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-268" y="290"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s8W-yZ-S0d">
+            <objects>
+                <viewController id="Rum-S8-N2k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kaf-0i-7s1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ayE-t4-zO1">
+                                <rect key="frame" x="142" y="157" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="动画1"/>
+                                <connections>
+                                    <segue destination="Y86-NN-xYb" kind="push" id="zTJ-yy-I3r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R1d-Mx-bUT">
+                                <rect key="frame" x="140" y="303" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="动画3"/>
+                                <connections>
+                                    <segue destination="20k-JB-ks2" kind="push" id="iHK-q3-Nkb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BNS-5e-I4U">
+                                <rect key="frame" x="140" y="368" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="动画4"/>
+                                <connections>
+                                    <segue destination="bvR-3g-Hmg" kind="push" id="ywV-2G-ez1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y7l-B2-wrm">
+                                <rect key="frame" x="141" y="231" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="动画2"/>
+                                <connections>
+                                    <segue destination="kkf-bj-oqJ" kind="push" id="ghp-Zd-zYd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="63i-X8-Smg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o8b-fU-x3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.26666666666667" y="284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cCZ-JP-ypk">
+            <objects>
+                <viewController id="Y86-NN-xYb" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Pi-aa-EqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bWz-nq-aQ4">
+                                <rect key="frame" x="123" y="518" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="click:" destination="Y86-NN-xYb" eventType="touchUpInside" id="SFP-x9-4lx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eJo-qQ-ooE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5iv-lj-m8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="-59"/>
+        </scene>
+        <!--AnimationV Iew Controller-->
+        <scene sceneID="jG1-Gw-oRY">
+            <objects>
+                <viewController id="kkf-bj-oqJ" customClass="GFAnimationVIewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="joj-VL-LmE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mhl-Vv-YAI">
+                                <rect key="frame" x="120" y="486" width="81" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25080818965517243" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="动画"/>
+                                <connections>
+                                    <action selector="clickAnimation:" destination="kkf-bj-oqJ" eventType="touchUpInside" id="yIi-Bw-sAo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T5l-wh-Tmp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gdN-wa-3J2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="600"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OdM-bK-bk7">
+            <objects>
+                <viewController id="20k-JB-ks2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iow-jE-kAg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QHB-Sj-mmm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sE1-cX-myi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="1044"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DHS-Bn-Udb">
+            <objects>
+                <viewController id="bvR-3g-Hmg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r1k-ZV-lgN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="exz-Ug-Dub"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w89-xh-Q2W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-738" y="1032"/>
+        </scene>
+    </scenes>
+</document>
